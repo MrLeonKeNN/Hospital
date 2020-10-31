@@ -30,15 +30,15 @@ window.addEventListener('scroll', function() {
  
   function zeroOne(){
 
-		b.classList.add("addmarginTop");
+		b.classList.remove("remmarginLeft2");
 
   };
   function zeroTwo(){
-    c.classList.add("addmarginLeft")
+    c.classList.remove("remmarginLeft")
 
   };
   function zeroTree(){
-    d.classList.add("addmarginRight");
+    d.classList.remove("remmarginLeft");
   };
  
 
