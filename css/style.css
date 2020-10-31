@@ -96,6 +96,10 @@ p {
   margin-bottom: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: Myriad Pro;
   src: url("../fonts/MyriadPro-Regular.ttf");
@@ -123,6 +127,7 @@ p {
 .container__icon {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -100%;
 }
 
 .conteiner__icon2 {
@@ -164,6 +169,10 @@ p {
   display: flex;
   justify-content: space-between;
   margin: 0 auto 20px auto;
+}
+
+.block__2__div1 {
+  margin-left: -100%;
 }
 
 .block__2__div1 > a {
@@ -211,16 +220,30 @@ p {
 
 .block__3 {
   background: url("../img/Layer 222.jpg") 100% 100% no-repeat;
-  margin-left: -100%;
   height: 767px;
   width: 100%;
   background-size: cover;
   background-position: center;
 }
 
-.addmargin {
-  margin-left: 0;
-  transition: 2s;
+.addmarginTop {
+  margin-top: 0;
+  transition: 1s;
+}
+
+.addmarginBottom {
+  margin-bottom: 0;
+  transition: 1s;
+}
+
+.addmarginLeft {
+  margin-left: 0 !important;
+  transition: 1s;
+}
+
+.addmarginRight {
+  margin-right: 0;
+  transition: 1s;
 }
 
 .butger__menu {
@@ -259,6 +282,7 @@ h1 {
   text-align: center;
   color: #474747;
   margin-bottom: 20px;
+  margin-top: -200%;
 }
 
 .block3__p {
@@ -284,6 +308,7 @@ h1 {
 
 .block4__div1 {
   background-color: #43b1d2;
+  transition: 1s;
 }
 
 .block4__div1 > p {
@@ -296,6 +321,7 @@ h1 {
 
 .block4__div2 {
   background-color: #3fb6c6;
+  transition: 2s;
 }
 
 .block4__div2 > p {
@@ -362,6 +388,7 @@ h1 {
   text-align: center;
   margin-top: 10%;
   margin-bottom: 40px;
+  margin-left: -300%;
 }
 
 .block__5 > p {
@@ -422,6 +449,7 @@ h1 {
 
 .block5__p {
   font-size: 16px;
+  max-width: 387px;
   font-family: "Myriad Pro";
 }
 
@@ -476,6 +504,7 @@ h1 {
   color: #494949;
   margin: 100px 0 50px 0;
   font-weight: 700;
+  text-align: center;
 }
 
 .block7__div1 > p {
@@ -692,6 +721,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .block__10 > div > h2 {
@@ -699,6 +729,10 @@ h1 {
   color: #494949;
   font-weight: 600;
   margin: 70px 0;
+}
+
+.block__10 > div > a {
+  margin-bottom: 30px;
 }
 
 .footer__div1 {
@@ -800,11 +834,11 @@ footer p {
 }
 
 #menuToggle {
+  display: none;
   overflow: hidden;
   position: fixed;
   top: 10px;
   right: 10px;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -853,6 +887,28 @@ footer p {
   background-color: #0c2461;
   transform: rotate(45deg);
   opacity: 0;
+}
+
+.remmargintop {
+  margin-top: -300%;
+}
+
+.remmarginLeft {
+  margin-left: -200%;
+}
+
+.remmarginRight {
+  margin-right: -200%;
+}
+
+#block5_div {
+  margin-right: -1000%;
+  transition: 1s;
+}
+
+#div_is_one {
+  margin-right: -500%;
+  transition: 1s;
 }
 
 @media (max-width: 1200px) {
@@ -916,6 +972,10 @@ footer p {
 
   .block__2 {
     display: none;
+  }
+
+  #menuToggle {
+    display: flex;
   }
 }
 
