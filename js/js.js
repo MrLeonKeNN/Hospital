@@ -22,9 +22,7 @@ window.addEventListener('scroll', function() {
       div3.style.marginRight="0px";
     
     }
-    if(pageYOffset>=1600){
-      //  div4.style.marginRight="0px";
-    }
+   
     console.log(pageYOffset);
   });
  
@@ -38,7 +36,7 @@ window.addEventListener('scroll', function() {
 
   };
   function zeroTree(){
-    d.classList.remove("remmarginLeft");
+    d.classList.remove("remmarginRight");
   };
  
 

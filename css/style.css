@@ -127,7 +127,7 @@ body {
 .container__icon {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -100%;
+  transition: 1s;
 }
 
 .conteiner__icon2 {
