@@ -889,26 +889,28 @@ footer p {
   opacity: 0;
 }
 
-.remmargintop {
-  margin-top: -300%;
-}
+@media (min-width: 1200px) {
+  .remmargintop {
+    margin-top: -300%;
+  }
 
-.remmarginLeft {
-  margin-left: -200%;
-}
+  .remmarginLeft {
+    margin-left: -200%;
+  }
 
-.remmarginRight {
-  margin-right: -200%;
-}
+  .remmarginRight {
+    margin-right: -200%;
+  }
 
-#block5_div {
-  margin-right: -1000%;
-  transition: 1s;
-}
+  #block5_div {
+    margin-right: -1000%;
+    transition: 1s;
+  }
 
-#div_is_one {
-  margin-right: -500%;
-  transition: 1s;
+  #div_is_one {
+    margin-right: -500%;
+    transition: 1s;
+  }
 }
 
 @media (max-width: 1200px) {
